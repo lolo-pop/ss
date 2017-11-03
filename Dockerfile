@@ -14,8 +14,8 @@ RUN apk update && apk add --no-cache build-base git autoconf automake gettext pc
 
 USER nobody
 
-ENV SERVER_ADDR 127.0.0.1
-ENV SERVER_PORT 80
+ENV SERVER_ADDR 0.0.0.0
+ENV SERVER_PORT 9000
 ENV PASSWORD 123456
 ENV METHOD chacha20-ietf-poly1305
 ENV TIMEOUT 3600
