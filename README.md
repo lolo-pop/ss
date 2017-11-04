@@ -1,5 +1,4 @@
 ```
 # .env
-SERVER_PORT=
-PASSWORD=
+PASSWORD=<YOUR PASSWORD>
 ```
